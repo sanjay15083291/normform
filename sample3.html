@@ -1,0 +1,53 @@
+<!docktype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+<body>
+    <style>
+        form{
+            text-align: center;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 2px;
+            margin: 3px;
+            
+        }
+        label{
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+        body{
+            background-image:url(https://images.unsplash.com/photo-1536782376847-5c9d14d97cc0?dpr=1&h=294&w=294&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OTYwMTE0ODR8fGVufDB8fHx8fA%3D%3D);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        input[type="text"],[type="number"],[type="date"]
+        {
+            color: rgb(0, 0, 0);
+            width: 100px;
+            height: 50px;
+            
+        }
+        
+   </style>
+    <form> 
+        <label>Name: <br><br><input type="text" height="40px" width="40px"></label><br><br>
+        <label for="DOB">DOB: <br><br></label>
+        <input id="DOB" type="date"><br><br>
+        <label>Address: <br><br><input type="text"></label><br><br>
+        <label>Gender: </label><br><br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+        <label>Subject: </label><br><br>
+        <input type="checkbox" name="subject" value="Maths">Maths<br><br>
+        <input type="checkbox" name="subject" value="English">English<br><br>
+        <input type="checkbox" name="subject" value="Physics">Physics<br><br>
+        <input type="checkbox" name="subject" value="Chemistry">Chemistry<br><br>
+        <label>Roll no: <input type="number"></label><br><br>
+        <label>Contact no: <input type="tel"></label><br><br>
+        <input type="submit" value="Submit" style="background-color: aquamarine;">
+    </form>
+</body>
+</html>
